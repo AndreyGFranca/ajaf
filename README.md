@@ -13,7 +13,7 @@ class FooServiceImpl implements FooService {
 @Injectable
 class BarServiceImpl implements BarService {
   @Autoinject
-  private Foo foo;
+  private FooService foo;
 }
 ```
 
