@@ -1,5 +1,8 @@
 package org.ajaf.core.reflection;
 
+/**
+ * @author Andrey Franca
+ */
 public class Reflections {
 
   /**

@@ -2,8 +2,8 @@ package org.ajaf.cdi;
 
 public interface Container {
 
-  void addInjectable (Object injectable);
+  void addInjectable (Class injectable) throws Exception;
 
-  <T> T getInjectable (Object injectable, Class<T> implementation);
+  <T> T getInjectable (Class<T> clazz);
 
 }

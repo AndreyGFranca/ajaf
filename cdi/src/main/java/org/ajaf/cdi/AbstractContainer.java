@@ -1,16 +1,16 @@
 package org.ajaf.cdi;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public abstract class AbstractContainer implements Container {
-  List<Object> injectables = new ArrayList<Object>();
+  private Map injectables = new HashMap<String, String>();
 
-  public List<Object> getInjectables () {
+  public Map getInjectables () {
     return injectables;
   }
 
-  public void setInjectables (List<Object> injectables) {
+  public void setInjectables (Map injectables) {
     this.injectables = injectables;
   }
 }

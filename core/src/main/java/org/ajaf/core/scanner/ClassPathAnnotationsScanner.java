@@ -6,6 +6,9 @@ import org.ajaf.core.reflection.Reflections;
 import java.io.File;
 import java.util.List;
 
+/**
+ * @author Andrey Franca
+ */
 public final class ClassPathAnnotationsScanner {
 
   public static List<Class> injectableClasses;
